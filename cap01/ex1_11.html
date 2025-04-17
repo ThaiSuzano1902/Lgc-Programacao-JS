@@ -1,0 +1,12 @@
+c - Elaborar um programa para uma loja, o qual leia o preço de um produuto e informe as opções
+de pagamento da loja. Calcule e informe o valor para pagamento á vista com 10& de desconto e o
+valor em 3x
+<meta charset="UTF-8">
+<script>
+    const preco = prompt("Digite o valor do produto: ")
+    const pagoAVista = preco * 0.10
+    const desconto = preco - pagoAVista
+    const parcelado = preco / 3
+    alert(`Preço R$: ${preco}\nÁ Vista R$: ${desconto}\nOu 3x de R$: ${parcelado.toFixed(2)}`)
+
+</script>
